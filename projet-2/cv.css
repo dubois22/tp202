@@ -1,0 +1,149 @@
+.info {
+    margin-left: 300px;
+    border-left: 2px solid blue ;
+    padding-left: 50px;
+    overflow: scroll;
+    scrollbar-width: none;
+    padding: 5px 5px 5px 50px;
+    height: 1380px;
+    
+}
+
+.info .curri {
+    background-color: #22c0e8;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    height: 100px;
+    padding-top: 10px;
+}
+
+.info .cursus {
+    border: 1px solid;
+    margin-bottom: 50px;
+    background-color: #22c0e8;
+    color: white;
+    border-radius: 5px;
+    margin-top: 50px;
+
+}
+.info .curri:hover {
+    transform: scale(1.07);
+}
+
+.info .cursus:hover {
+    transform: scale(1.07);
+}
+
+.info .experience:hover {
+    transform: scale(1.07);
+}
+
+.info .competence:hover {
+    transform: scale(1.07);
+}
+
+.info .experience {
+    border: 1px solid;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    background-color: #22c0e8;
+    color: white;
+    border-radius: 5px;
+}
+
+.info .competence {
+    border: 1px solid;
+    margin-top: 30px;
+    background-color: #22c0e8;
+    color: white;
+    border-radius: 5px;
+}
+
+.menu {
+    float: left;
+    width:270px;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+
+.menu .nom {
+    border: 1px solid;
+    margin-top: 50px;
+    background-color: #22c0e8;
+    color: white;
+    border-radius: 5px;
+}
+
+.menu .reseau {
+    display: block;
+    border: 1px solid #22c0e8;
+    margin-top: 50px;
+    padding-left: 10px;
+    background-color: #22c0e8;
+    border-radius: 5px;
+}
+
+.menu .contact {
+    border: 1px solid ;
+    margin-top: 50px;
+    padding-left: 5px;
+    background-color: #22c0e8;
+    color: white;
+    border-radius: 5px;
+}
+
+.menu .resume {
+    border: 1px solid;
+    margin-top: 50px;
+    word-wrap: break-word;
+    padding-left: 5px;
+    background-color: #22c0e8;
+    color: white;
+    border-radius: 5px;
+}
+
+.menu .loisir {
+    border: 1px solid;
+    margin-top: 50px;
+    word-wrap: break-word;
+    padding-left: 5px;
+    background-color: #22c0e8;
+    color: white;
+    border-radius: 5px;
+}
+
+
+.menu .image {
+    padding-left: 27px;
+}
+
+.menu .imageronde {
+    border-radius: 5000px 5000px 5000px 5000px;
+    width: 200px;
+}
+
+.menu .image:hover{
+    transform: scale(1.05);
+}
+
+.menu .nom:hover {
+    transform: scale(1.09);
+}
+.menu .contact:hover {
+    transform: scale(1.09);
+}
+.menu .reseau:hover {
+    transform: scale(1.09);
+}
+.menu .resume:hover {
+    transform: scale(1.09);
+}
+.menu .loisir:hover {
+    transform: scale(1.09);
+}
+
+
+
+
+

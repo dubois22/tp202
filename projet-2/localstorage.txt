@@ -1,0 +1,32 @@
+---Ajouter une donne---
+
+try {
+  localStorage.setItem("key", "value");
+} catch(e){...}
+
+---Ajouter une donnee complexe---
+
+let arr = [1,2,3];
+localStorage.setItem("key", JSON.stringify(arr));
+
+---Lire une donnee---
+
+//Lire une donnée simple (string)
+let str = localStorage.getItem("key");
+
+//Lire une donnée complexe (objet)
+let obj = JSON.parse(localStorage.getItem("key"));
+
+//Lire un entier
+let nbr = parseInt(localStorage.getItem("key"));
+
+---Supprimer une donne---
+
+localStorage.removeItem("key");
+
+---Vider le local storage---
+
+localStorage.clear();
+
+localStorage.setItem("1cp", "");
+          var bjr=localStorage.getItem("1cp")
